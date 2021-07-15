@@ -5,7 +5,7 @@ public class RollDice {
 		final int SIZE = 6;
 		int freq[] = new int[SIZE];
 
-		for (int i = 0; i < 300; i++)
+		for (int i = 0; i < 200; i++)
 			++freq[(int) (Math.random() * SIZE)];
 
 		System.out.println("====================");
